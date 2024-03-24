@@ -1,0 +1,453 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-----CSS---->
+  <link rel="stylesheet" href="style.css">
+
+  <!-----BootStrap-icons---->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+
+  <!-----BootStrap-Css---->
+  <link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+
+  <!-----BootStrap-JavaScript----->
+  <script defer src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <!-------Google-fonts-------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400..700&display=swap" rel="stylesheet">
+
+  <!------FontAwesome------->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <title>Document</title>
+</head>
+
+<body>
+
+  <!----Header-->
+
+  <header>
+    <div class="navbar">
+      <div class="logo">
+        <a href="index.html">
+          <h1>Food<span>X</span></h1>
+        </a>
+      </div>
+      <div class="burger">
+      <i class="fa-solid fa-burger"></i>
+      </div>
+      <div class="links">
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li class="active"><a href="#menu">Menu</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+      <div class="search">
+        <form class="d-flex" role="search">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-success" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </header>
+
+
+  <!-------------Main---------------->
+
+  <div id="carouselExampleSlidesOnly" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner courusel-main">
+      <div class="carousel-item active ">
+        <img src="images/carusel2.png" class="d-block w-100" alt="...">
+        <div class="slide-content">
+          <h1>Fast Food, Faster to Your Door! </h1>
+          <span>Experience the convenience and speed of our fast food delivery service, bringing your favorite meals
+            straight to your doorstep in no time!</span>
+          <button type="button" class="btn btn-outline-success" >ORDER NOW!</button>
+        </div>
+        <div class="courier">
+          <img src="images/courier.png" alt="">
+        </div>
+
+        <div class="sticker">
+        <img src="images/burger-removebg-preview.png" alt="">
+        </div>
+      </div>
+      
+      </div>
+    </div>
+  </div>
+
+
+  <!--------------About---------------->
+<section id="about">
+  <h1 class="section-title">About Us:</h1>
+    <div class="about-content">
+      
+      <span>
+        Welcome to [Restaurant Name], where passion for food meets a commitment to exceptional service. 
+        Established in[Year], we've been a cornerstone of the [City/Location] dining scene, offering a unique 
+        culinary experience that celebrates the art of cooking.Our philosophy is simple: to create memorable moments 
+        through extraordinary food and hospitality. Drawing inspiration from diverse culinary traditions, our chefs 
+        craft dishes that are as flavorful as they are innovative.From farm-fresh ingredients to expertly curated menus, 
+        we take pride in every detail of your dining experience. 
+      </span>
+
+      <div class="about-video">
+        <video src="images/about-video.mp4" autoplay muted ></video>
+      </div>
+    </div>
+    
+    </section>
+
+
+  <!-------------Menu---------------->
+
+  <section id="menu">
+   
+    <h1 class="section-title">Menu:</h1>
+    
+    <div class="product-box">
+      
+      <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+        <div class="row g-0">
+          <div class="col-md-5">
+            <div class="card-body">
+              <h5 class="card-title">Chef Burger</h5>
+              <p class="card-text ingredients">Chicken breast,dill pickles,celery seed, corn flour.</p>
+              <p class="card-text"><small class=" price">5.95 $</small></p>
+            </div>
+          </div>
+          <div class="col-md-6">
+            <img src="images/menu1.png" class="img-fluid rounded" alt="...">
+          </div>
+            <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        </div>
+      </div>
+
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title product-name">Big Tasty™ (Chicken)</h5>
+            <p class="card-text ingredients">Chicken breast,dill pickles,celery seed, corn flour.</p>
+            <p class="card-text"><small class=" price">9.00 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu2.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        
+      </div>
+    </div>
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title product-name">Double Filet-o-Fish™</h5>
+            <p class="card-text ingredients">Two fried fish (Gadidae family) fillets on lush sauce.</p>
+            <p class="card-text"><small class=" price">17.00 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu3.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+         </div>
+    </div>
+
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title product-name">Wedges (Extra)</h5>
+            <p class="card-text ingredients">Delicious, deep-fried and flavored potato slices.</p>
+            <p class="card-text"><small class=" price">6.30 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu4.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        </div>
+    </div>
+
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title product-name">French Fries (Extra)</h5>
+            <p class="card- ingredients">Delicious, deep-fried and slightly salted potato.</p>
+            <p class="card-text"><small class=" price">6.75 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu5.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        </div>
+    </div>
+
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title product-name">French Fries (Small)</h5>
+            <p class="card-text ingredients">Delicious, deep-fried and slightly salted potato.</p>
+            <p class="card-text"><small class=" price">3.00 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu6.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        </div>
+    </div>
+
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title product-name">Chicken wings (8 pcs)</h5>
+            <p class="card-text ingredients">Chicken breast,dill pickles,celery seed, corn flour.</p>
+            <p class="card-text"><small class=" price">10.50 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu7.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        </div>
+    </div>
+
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title product-name">Orange Juice (500 ml)</h5>
+            <p class="card-text ingredients">Fresh orange juice of natural. <br><br></p>
+            <p class="card-text"><small class=" price">5.95 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu8.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        </div>
+    </div>
+
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title product-name">Fruit Pie (Apple)</h5>
+            <p class="card-text ingredients">Chicken breast,dill pickles,celery seed, corn flour.</p>
+            <p class="card-text"><small class=" price">7.40 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu9.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        </div>
+    </div>
+
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title product-name">Pizza Margherita</h5>
+            <p class="card-text ingredients">Tomatoes, oregano, mozzarella cheese. <br><br></p>
+            <p class="card-text"><small class=" price">17.00 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu10.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        </div>
+    </div>
+
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title">Coca-Cola® 500 ml</h5>
+            <p class="card-text"><br><br></p>
+            <p class="card-text"><small class=" price">2.50 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu11.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        </div>
+    </div>
+
+    <div class="card mb-3 " style="max-width: 450px; max-height: 180px;">
+      <div class="row g-0">
+        <div class="col-md-5">
+          <div class="card-body">
+            <h5 class="card-title">Fanta®Orange 500 ml</h5>
+            <p class="card-text"><br><br></p>
+            <p class="card-text"><small class=" price">2.50 $</small></p>
+          </div>
+        </div>
+        <div class="col-md-6">
+          <img src="images/menu12.avif" class="img-fluid rounded" alt="...">
+        </div>
+         <a href=""><i class="fa-solid fa-cart-arrow-down  cart"></i></a>
+        </div>
+    </div>
+
+  </div>
+  </section>
+
+
+  <!-------Carousel------->
+  <div id="carouselExampleInterval" class="carousel slide mt-5 mb-5 m-auto" style="width:90%;" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active item" data-bs-interval="2000" >
+        <img src="images/coursel1Desc.avif" class="d-block w-100 m-auto" alt="...">
+        <div class="carousel-caption d-none d-md-block desc1">
+          <h1>On time delivery</h1>
+          <p>Fast delivery to the place you want.</p>
+        </div>
+      </div>
+      <div class="carousel-item item" data-bs-interval="2000">
+        <img src="images/coursel2Desc.webp" class="d-block w-100 m-auto" alt="...">
+        <div class="carousel-caption d-none d-md-block desc2">
+          <h3>Fresh and healthy vegetables</h3>
+          <p>Some representative placeholder content for the first slide.</p>
+        </div>
+      </div>
+      <div class="carousel-item item" data-bs-interval="2000" >
+        <img src="images/coursel3Desc.webp" class="d-block w-100 m-auto" alt="...">
+        <div class="carousel-caption d-none d-md-block desc3">
+          <h3>24/7 customer service</h3>
+          <p>Our professional customer representatives will always help you.</p>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleInterval" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div>
+
+
+
+
+
+  <!-------Contact-------->
+
+  <section id="contact">
+    <h1 class="section-title">Contact Us:</h1>
+<div class="contact-form">
+    
+  <div class="mb-3 mt-3">
+      <label for="exampleFormControlInput1" class="form-label">Name</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" >
+    </div>
+  
+    <div class="mb-3 mt-3">
+      <label for="exampleFormControlInput1" class="form-label">Surname</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" >
+    </div>
+
+    <div class="mb-3 mt-3">
+      <label for="exampleFormControlInput1" class="form-label">Email address</label>
+      <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com">
+    </div>
+
+    <div class="mb-3 mt-3">
+      <label for="exampleFormControlTextarea1" class="form-label">Example textarea</label>
+      <textarea class="form-control" id="exampleFormControlTextarea1" rows="3"></textarea>
+    </div>
+    <button type="button" class="btn btn-outline-danger">Send </button>
+  </div>
+   </section>
+
+   <footer>
+    <div class="ft-logo">
+      <a href="index.html">
+        <h1>Food<span> X</span></h1>
+      </a>
+      <span>"Hungry? We've Got You Covered, 
+        Fast and Fresh!"</span>
+    </div>
+
+    <div class="ft-content">
+      <div class="service">
+        <h3>About </h3>
+        <ul>
+          <li><a href="">History</a></li>
+          <li><a href="">Team</a></li>
+          <li><a href="">Our Impact</a></li>
+          <li><a href="">Ingredients</a></li>
+        </ul>
+      </div>
+
+      <div class="sosial">
+        <h3>Follow Us</h3>
+        <ul>
+          <li><i class="fa-brands fa-square-facebook" ></i><a href="">facebook</a></li>
+          <li><i class="fa-brands fa-square-instagram" ></i><a href="">instagram</a></li>
+          <li><i class="fa-brands fa-tiktok" ></i><a href="">tik-tok</a></li>
+          <li><i class="fa-brands fa-twitter" ></i><a href="">twitter</a></li>
+        </ul>
+      </div>
+
+      <div class="career">
+        <h3>Careers</h3>
+        <ul>
+        <li><a href="">Restaurant Careers</a></li>
+        <li><a href="">Corporate Careers</a></li>
+        <li><a href="">Franchising</a></li>
+      </ul>
+      </div>
+   </div>
+
+   <div class="foot-text">
+  <h5 >Copyright © 2024 Created by Elnur Kazimov</h5>
+</div>
+   </footer>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  </section>
+
+
+
+
+
+</body>
+
+</html>
